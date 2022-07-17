@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icone.png">
+  <title>Ynara | Portifólio</title>
+
+</head>
+
+<body>
+  <header>
+    <!-- Links cabeçalho-->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="logo.png" width="153px" height="36" class="d-inline-block align-top"
+            alt=""></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sobre mim</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Minhas habilidades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Meus projetos</a>
+      </li>
+      <li class="nav-item">
+        <a id="nav-link" href="#"><button id="nav-button">Entrar em contato</button></a>
+      </li>
+    </ul>
+  </header>
+  <div class="home">
+    <h1>Olá, me chamo Ynara</h1>
+    <p id="text-home">Bem vindo (a) ao meu portifólio.</p>
+    <p>aqui é onde eu mostro um pouco </p>
+    <p>sobre mim, tragetórias, e minha</p>
+    <p>paixão que é desenvolver. Sou </p>
+    <p>estudante de TSI e tenho como</p>
+    <p> objetivo crescer na área, vamos</p>
+    <p>buscar mais conhecimentos!</p>
+    </p>
+    <a href="#projetos"><button id="nav-button">Veja meus projetos</button></a>
+  </div>
+
+  <div id="mouse">
+    <img src="Mouse.png" alt="Deslise para baixo" width="60px">
+    <p>Deslize para baixo</p>
+  </div>
+
+  <div class="habilidades">
+    <h2>Competências</h2>
+    <p>cursos complementares concluídos</p>
+    <div class="card-habilidades">
+      <div class="card-img">
+        <img src="Group 10.png" alt="">
+      </div>
+      <div class="card-img">
+        <img src="Group 11.png" alt="">
+      </div>
+      <div class="card-img">
+        <img src="code 1.png" alt="" width="50px">
+        <p>Lógica de programação</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="info">
+    <div div class="info-items">
+      <h3>Curso</h3>
+      <p>Cursando Tecnologia de </p>
+      <p>Sistemas para Internet, 3/5</p>
+    </div>
+    <div div class="info-items">
+
+      <h3>Local</h3>
+      <p>Atualmente resido</p>
+      <p> em Brasília - DF</p>
+    </div>
+
+    <div div class="info-items">
+      <h3>Foco</h3>
+      <p>Desenvolvedora Web</p>
+      <p>Fullstack</p>
+    </div>
+  </div>
+  </div>
+  <hr>
+  <section class="projetos-home">
+    <h4>Projetos Realizados</h4>
+  </section>
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img id="img-projeto" src="Instagram" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Login Instagram</h5>
+          <a id="nav-link" href="#"><button id="nav-button">Ver projeto</button></a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img id="img-projeto" src="advocacia.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Advocacia</h5>
+          <a id="nav-link" href="#"><button id="nav-button">Ver projeto</button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="img-projeto" src="gadgetsbrasil.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>GadGets Brasil</h5>
+          <a id="nav-link" href="#"><button id="nav-button">Ver projeto</button></a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+ 
+
+  <form action="" class="form-contato">
+    <input type="text" placeholder="Nome ou empresa">
+    <input type="number" placeholder="Telefone">
+    <input type="email" placeholder="E-mail">
+    <input type="text" placeholder="Motivo de contato">
+    <input type="text" placeholder="Mensagem">
+    <button id="submit-form">Mandar mensagen</button>
+  </form>
+  <hr>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>

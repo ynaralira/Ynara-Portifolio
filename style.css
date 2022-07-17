@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+background-color: #141414;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.nav-item{
+    color: white;
+    font-size: 19px;
+    font-family: poppins;
+    text-decoration: none;
+    padding: 10px ;
+}
+.nav-link{
+    color: white;
+    font-family: poppins;
+}
+.nav-link:hover{
+    color: rgba(224, 0, 116, 1);
+}
+#nav-button{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(224, 0, 116, 1);
+    border: 4px solid rgba(224, 0, 116, 1);
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: poppins;
+    width: max-content;
+    font-weight: bolder;
+}
+#nav-button:hover{
+    box-shadow: 0px 5px 10px #e9e4e7;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+ 
+/* APRESENTAÇÃO / SOBRE*/
+
+.home{
+color: white;
+font-weight: 300;
+font-size: 19px;
+background-image: url(img-sobre.jpeg);
+background-repeat: no-repeat;
+margin-left: 20%;
+padding-top: 100px;
+padding-bottom: 55px;
+font-family: Poppins;
+background-image: url(img-sobre.jpeg);
+background-repeat: none;
+}
+
+h1{
+    display: flex;
+    font-style: normal;
+    font-size: 19px;
+    background-image: url(fundo-h1.png);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    padding-left: 15px; 
+    padding-top: 8px;   
+}
+#text-home{
+    color: white;
+    display: flex;
+}
+#mouse{
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#mouse:hover{
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+/* HABILIDADES */
+
+.habilidades{
+    padding-top: 5rem;
+    text-align: center;
+    color: white;
+    background-image:url(banner-2\ 1.png);
+    height: 394px; 
+}
+h2{
+  font-size: 19px;
+}
+
+.card-habilidades{
+display: flex;
+align-items: center;
+
+}
+
+.card-img{
+    border: white 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: poppins;
+    text-align: center;
+    margin: 70px;
+   
+}
+
+h3{
+    font-size: 20px;
+    color: rgba(224, 0, 116, 1);
+    font-weight: bolder;
+}
+.info-items p{
+    font-size: 20px;
+    color: white;
+}
+hr{
+    border-color:rgba(224, 0, 116, 1) ;
+    width: 85%;
+    margin: 70px;
+    justify-content: center;
+}
+
+.projetos-home{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+#carouselExampleDark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    border: rgba(224, 0, 116, 1) solid 2px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+
+#img-projeto{
+    opacity: 50%;
+    border-radius: 20px;
+    height: 500px;
+}
+
+h5{
+    color: white;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+input{
+   width: 35%;
+   background: transparent;
+   border: none;
+   border-bottom:rgba(224, 0, 116, 1) 1px solid ;
+   padding: 10px;
+   color: rgba(224, 0, 116, 1) ;
+   font-size: 19px;
+}
+::placeholder{
+    color: white;
+    font-family: poppins;
+}
+#submit-form{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(224, 0, 116, 1);
+    border: 4px solid rgba(224, 0, 116, 1);
+    border-radius: 10px;
+    font-size: 19px;
+    font-family: poppins;
+    margin-top: 30px;
+    width: 35%;
+}
+#submit-form:hover{
+    box-shadow: 0px 5px 10px #e9e4e7;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+@media (max-width: 600px)
+{
+  .facet_sidebar
+   {
+    display: none;
+   }
+}
